@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Visit this page http://shummuwedsmaju.github.io/
+Visit this page https://shummuwedsmaju.github.io/
 
 <!--
 **shummuwedsmaju/shummuwedsmaju** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
