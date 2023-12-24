@@ -20,10 +20,17 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
-});
+// $(document).on('click', function(){
+//     document.getElementById("my_audio").play();
+//     console.log('Shaadi me zaroor aana');
+// });
+
+function playSound(audioName,loop){
+    let audio = new Audio(audioName);
+    audio.loop = loop;
+    audio.play();
+}
+playSound("song.mp3", true)
 
 // Set the date we're counting down to
 var countDownDate = new Date("Apr 23, 2024 00:00:00").getTime();
