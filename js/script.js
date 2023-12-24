@@ -30,7 +30,7 @@ function playSound(audioName,loop){
     audio.loop = loop;
     audio.play();
 }
-playSound("song.mp3", true)
+playSound("song.mp3", true);
 
 // Set the date we're counting down to
 var countDownDate = new Date("Apr 23, 2024 00:00:00").getTime();
